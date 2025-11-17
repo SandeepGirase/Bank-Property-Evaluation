@@ -1,1 +1,11 @@
-/* You can add global styles to this file, and also import other style files */
+/* Import Bootstrap from node_modules (installed via package.json) */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+/* Project global styles */
+body {
+	padding-top: 56px; /* leave space for fixed navbar */
+}
+
+/* Small helpers for content */
+main {
+	padding: 1.25rem;
+}
