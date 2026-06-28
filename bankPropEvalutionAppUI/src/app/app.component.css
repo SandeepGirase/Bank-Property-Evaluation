@@ -1,0 +1,16 @@
+/* App-level UI tweaks */
+.navbar {
+	box-shadow: 0 2px 6px rgba(2,6,23,0.08);
+}
+
+.navbar-brand {
+	font-weight: 600;
+}
+
+.nav-link {
+	color: rgba(255,255,255,0.9) !important;
+}
+
+main.container {
+	padding-top: 1rem;
+}
